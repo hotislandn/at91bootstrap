@@ -48,6 +48,8 @@ static struct nand_chip nand_ids[] = {
 };
 #else
 static struct nand_chip nand_ids[] = {
+	/* Samsung K9F1G08U0M 128MB */
+	{0xecf1, 0x400, 0x20000, 0x800, 0x40, 0x0},
 	/* Samsung K9F2G08U0M 256MB */
 	{0xecda, 0x800, 0x20000, 0x800, 0x40, 0x0},
 	/* Samsung K9F2G08U0A 256MB */
